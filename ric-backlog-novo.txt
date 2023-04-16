@@ -1,0 +1,61 @@
+Cadastro de Campanha
+	- E-mail para recebimento da via de controle (interno)
+	- campo "Oferta" para Texto legal da Oferta - 
+	- campo "País" para País da Campanha
+	- campo "status" para Status da Campanha
+	- melhorar o fluxo de um para o outro (steps 1,2,3....)
+		- tutorial com exemplos e tal
+	- link para pre-cadastro (Link na tabela)
+	- link para form completo  (Link na tabela)
+	- remover campos de oferta, ocorre em, status na tabela
+	- minDate só na campanha nova (na edição não)
+	- mensagem de erro avisando da data anterior a data atual
+	- tooltip nos icones da barra lateral
+	- botão para selecionar o timezone (padrao GMT) - não fazer 
+		- exibir texto dizendo que o horário é padrão GMT
+
+
+
+Cadastro do RIC
+	- mudar para singular o campo "Concessionarias"
+	- remover caps lock no campo "Email"
+	- remover o 0 a esquerda no campo  "Telefone"
+	- por favor clique e selecione sua data ---> placeholder
+	- colocar como default o campo de data "editavel por texto" - (app e site)
+	- ordernar por ordem alfabetica os cargos
+	- trocar o produto, limpar a condição e produto
+	- colocar o botão de adicionar produto para baixo dos produtos
+	- não foi enviado o email do RIC
+	- quando volta e entra de novo na tela de dados da empresa, perdeu o estado/cidade (app)
+
+
+
+Cadastro de Templates
+	- edição apenas pelo MASTER
+	- voltar do "saiba mais" para o cadastro (templates)
+	- novas keywords
+		dados da concessionaria
+		numero do RIC
+		nome da campanha
+
+	- Template de email deve seguir o formato utilizado no RIC Fenatran 2022 (a verificar)
+	
+
+Procura dos cadastros no mobile
+	- exibir mensagem dizendo que não tem cadastro (está mostrando "Erro Desconhecido")
+
+
+
+OUTROS
+	Carregar formulário de acordo com o pais da campanha e não o selecionado (se não for BR)
+	carregar lista de todos os países 
+	ordernar tabela de forma decrescente (data de cadastro)
+	Botao de salvar - colocar no final ou travar o header das telas de criação/edição
+	exibir mensagem de email já cadastrado - cadastro de consultor
+	na exportação - puxar pelo ID da campanha selecionada
+	na tela de vinculo em Condições (remover o campo '1 unidades')
+	os vinculos não estão sendo exibidos corretamente na tela de detalhes da campanha
+	caso o master queria se cadastrar como admin ou consultor, apenas adicione a role, não exiba erro de duplicado
+	usuario master consegue exportar relatório de todas as campanhas
+	usuario admin só consegue visualizar dados da campanha que ele mesmo criou
+
